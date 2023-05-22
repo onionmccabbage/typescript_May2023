@@ -17,7 +17,7 @@ Monday
   - npm install -g typescript
   - npm install -g ts-node
   - may need to npm install types for (e.g.) @angular or @react or custom...
-- Modern ECMAScript
+- Modern ECMAScript version, support, legacy...
    - common name JavaScript
    - also known as ECMAScript, ES, ES3, ES5, ES6 etc
    - sometimes referred to as ESNext, ES6+
@@ -25,6 +25,7 @@ Monday
 - TS is DEVELOPMENT TIME ONLY - it NEVER makes it to the end user
 - sometimes it complains 'cannot find console...' - fix with ts-config DOM
 - Typescript why and how
+- tsconfig
 - using class and interface for types
 - best pactice: declare types/interfaces in another module and import that
 - default ts output is ES3, we can --target es2022 (or relevant version)
