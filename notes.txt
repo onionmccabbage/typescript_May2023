@@ -30,7 +30,7 @@ Monday
 q - named tuples - schema
 q - private...
 - overload...
-- JavaScript like Java?? No, but Typescript is more like Java
+> JavaScript like Java?? No, but Typescript is more like Java
 > using class and interface for types
 - best pactice: declare types/interfaces in another module and import that
 > default ts output is ES3, we can --target es2022 (or relevant version)
@@ -45,7 +45,7 @@ q - private...
 Tuesday
 - brief review so far
 - install coderunner extention - lets us run ts directly
-- generics Array<T>
+> generics Array<T>
 - importing modules
 - begin looking at data sources: JSON etc
 - is TS mainly just for type safety? No, also has language engine for code completion/introspection

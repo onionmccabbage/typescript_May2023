@@ -91,3 +91,6 @@
     poem = [1, true, 'love'] // just an array
     console.log(poem, poem[2])
 }
+
+// the smallest significant margin of error
+let n = Number.EPSILON
