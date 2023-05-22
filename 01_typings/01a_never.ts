@@ -4,8 +4,9 @@
 // Normally a function which does not have a return value returns 'undefined' implicitly
 // However this function throws an error before ever reaching the end
 // Therefore the return type will be 'never'
-function foo() :never {
+const foo = () :never => {
     throw new Error("Error");
+    // return 'ok' // unreachable
 }
 // Inferred return type is never
 function fail() {

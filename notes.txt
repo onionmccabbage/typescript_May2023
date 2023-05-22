@@ -30,7 +30,7 @@ q - return never
 q - named tuples - schema
 q - private...
 - overload...
-q - JavaScript like Java?? No, but Typescript is more like Java
+- JavaScript like Java?? No, but Typescript is more like Java
 > using class and interface for types
 - best pactice: declare types/interfaces in another module and import that
 > default ts output is ES3, we can --target es2022 (or relevant version)
