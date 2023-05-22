@@ -5,7 +5,7 @@ Toby Dussek  May 22-24
 
 9:30  start
 11:00 coffee
-12:30 lunch
+12:30 lunch until 1:30
 3:00  tea
 4:30  end
 
@@ -13,9 +13,9 @@ code repo: https://github.com/onionmccabbage/typescript_May2023
 
 Monday
 > welcome and tech check
-- choose a folder to work in: install NodeJS/npm then install typescript globaly
-  - npm install -g typescript
-  - npm install -g ts-node
+> choose a folder to work in: install NodeJS/npm then install typescript globaly
+ > npm install -g typescript
+  > npm install -g ts-node
   - may need to npm install types for (e.g.) @angular or @react or custom...
 - Modern ECMAScript version, support, legacy...
    - common name JavaScript
@@ -23,20 +23,22 @@ Monday
    - sometimes referred to as ESNext, ES6+
    - recently ES2021, ES2022... (these are all names for JavaScript)
 > TS is DEVELOPMENT TIME ONLY - it NEVER makes it to the end user
-- sometimes it complains 'cannot find console...' - fix with ts-config DOM
+> sometimes it complains 'cannot find console...' - fix with ts-config DOM
 - Typescript why and how
 - tsconfig
 q - return never
 q - named tuples - schema
 q - private...
-- using class and interface for types
+- overload...
+q - JavaScript like Java?? No, but Typescript is more like Java
+> using class and interface for types
 - best pactice: declare types/interfaces in another module and import that
-- default ts output is ES3, we can --target es2022 (or relevant version)
+> default ts output is ES3, we can --target es2022 (or relevant version)
 - tidy way to see html pages - liveserver (and web browser events)
 - support for older browsers etc.
-- number data type
-- functions and types
-- classes
+> number data type
+> functions and types
+> classes
 - ways to run and automate
 - try a lab exercise
 
