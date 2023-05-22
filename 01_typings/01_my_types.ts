@@ -47,5 +47,47 @@
 
 }
 {
-    
+    // Data types and functions
+    type allowed  = number | string
+
+    // ehre we DO explicitly data-type the return and the argumetn types - TS cannot infer
+    const fn = (x:allowed):string=>{
+        // This function will take a number or a string and return a nubmer
+        return `${x}` // modern JS string interpolation syntax
+    }
+    let n=4
+    let o = '4'
+    let s = fn(n) // function is allowed to accept number
+    let t = fn(o) // .. also accept a string
+    console.log(s, typeof(s), t)
+
+    type my_type = boolean | number | string
+    const fnB = ():my_type=>{
+        // return 3
+        // return false
+        // return null
+        return Number.NaN  // JS has useful values
+        // return "Error!!!"
+    }
+
+    console.log(  fnB()  )
+}
+// Typescript does two things
+// - make code data-type-safe during development
+// - code-hinting (TS language engine)
+{
+    // optional arguments (JS feature)
+    const fnD = (opt?:any):void=>{ // void is TS
+        // we said we would return void, i.e. no return or explicitly return void
+        // return never  // what is this ??
+        return opt
+    }
+    console.log( fnD('is it lunch yet?') )
+}
+{
+    // tuple (mainly used to data-type-safe arrays, but can apply to any structure)
+    // declare types that MUST occur in a SPECIFIC order
+    let poem:[number, boolean, string]
+    poem = [1, true, 'love'] // just an array
+    console.log(poem, poem[2])
 }

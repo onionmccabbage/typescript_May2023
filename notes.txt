@@ -26,6 +26,8 @@ Monday
 - sometimes it complains 'cannot find console...' - fix with ts-config DOM
 - Typescript why and how
 - tsconfig
+q - return never
+q - named tuples - schema
 - using class and interface for types
 - best pactice: declare types/interfaces in another module and import that
 - default ts output is ES3, we can --target es2022 (or relevant version)
