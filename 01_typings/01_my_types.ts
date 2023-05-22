@@ -32,3 +32,20 @@
     let r:Arbitrary = 10 // or false or any of the permitted values
 
 }
+{
+    // using enumeration with enum (indexed from zero)
+    enum BoxSize { Small, Medium }
+    
+    // but JS does NOT look ahead
+    enum BoxSize { Large=2, XLarge}
+    
+    let c = BoxSize.XLarge // TS looks ahead
+   
+    // remember there is only a JavaScript console within a browser!!
+    // here we are running code OUTSIDE of a browser
+    console.log(c) // 3
+
+}
+{
+    
+}

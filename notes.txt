@@ -12,7 +12,7 @@ Toby Dussek  May 22-24
 code repo: https://github.com/onionmccabbage/typescript_May2023
 
 Monday
-- welcome and tech check
+> welcome and tech check
 - choose a folder to work in: install NodeJS/npm then install typescript globaly
   - npm install -g typescript
   - npm install -g ts-node
@@ -22,7 +22,7 @@ Monday
    - also known as ECMAScript, ES, ES3, ES5, ES6 etc
    - sometimes referred to as ESNext, ES6+
    - recently ES2021, ES2022... (these are all names for JavaScript)
-- TS is DEVELOPMENT TIME ONLY - it NEVER makes it to the end user
+> TS is DEVELOPMENT TIME ONLY - it NEVER makes it to the end user
 - sometimes it complains 'cannot find console...' - fix with ts-config DOM
 - Typescript why and how
 - tsconfig
