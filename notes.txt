@@ -26,7 +26,7 @@ Monday
 > sometimes it complains 'cannot find console...' - fix with ts-config DOM
 - Typescript why and how
 - tsconfig
-q - return never
+- return never
 q - named tuples - schema
 q - private...
 - overload...
@@ -40,7 +40,7 @@ q - private...
 > functions and types
 > classes
 - ways to run and automate
-- try a lab exercise
+> try a lab exercise
 
 Tuesday
 - brief review so far
