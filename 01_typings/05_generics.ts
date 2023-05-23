@@ -16,8 +16,8 @@
 {
     // solution is to use generics - by convention we use 'T' for our type
     // the 'T' is the type inside the array - even for tuple
-    // const zeroethElement = <T>(a:Array<T>):T=>{
-    const zeroethElement = <T>(a:T[]):T=>{ // identical in function
+    const zeroethElement = <T>(a:Array<T>):T=>{
+    // const zeroethElement = <T>(a:T[]):T=>{ // identical in function
         return a[0]
     }
     let a_s = ['this', 'is', 'an', 'array', 'of', 'strings']
