@@ -44,11 +44,11 @@ q - named tuples - schema
 
 Tuesday
 > brief review so far
-. quick refresher on 'dictionary'
+> quick refresher on 'dictionary'
 > install coderunner extention - lets us run ts directly
 > generics Array<T>
-- importing modules
-- ...how this affects config
+> importing modules
+> ...how this affects config
 - begin looking at data sources: JSON etc
 - is TS mainly just for type safety? No, also has language engine for code completion/introspection
 - types or interface (or hybrid) - mainly aim for interface, then derive other types
