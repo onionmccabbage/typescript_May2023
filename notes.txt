@@ -55,8 +55,9 @@ Tuesday
 - when/why you would use an Enum, Literal, tuple, Type, Interface 
   (how to choose one over another depending on what you are doing)
 - https://webpack.js.org/guides/typescript/
-- Promises
-- fetch and async-await
+> Promises
+> fetch and async-await
+> also see https://caniuse.com
 - we can specify more than one generic type as <a, b>
 - conventions, best practice, preference...
 - many ways to write functions
