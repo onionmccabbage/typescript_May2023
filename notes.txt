@@ -49,7 +49,7 @@ Tuesday
 > generics Array<T>
 > importing modules
 > ...how this affects config
-- begin looking at data sources: JSON etc
+> begin looking at data sources: JSON etc
 - is TS mainly just for type safety? No, also has language engine for code completion/introspection
 - types or interface (or hybrid) - mainly aim for interface, then derive other types
 - when/why you would use an Enum, Literal, tuple, Type, Interface 
@@ -58,12 +58,12 @@ Tuesday
 > Promises
 > fetch and async-await
 > also see https://caniuse.com
-- we can specify more than one generic type as <a, b>
+> we can specify more than one generic type as <a, b>
 - conventions, best practice, preference...
 - many ways to write functions
 - destructuring
 - generator syntax (must use 'function*')
-- type guards - simply use logical 'if' when we need to ensure types manually
+> type guards - simply use logical 'if' when we need to ensure types manually
 - more on tsconfig: see the docs on tsconfig 
 - review exercise
 

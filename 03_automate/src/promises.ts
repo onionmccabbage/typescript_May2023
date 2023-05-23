@@ -22,5 +22,6 @@ export const fetchPhotos = async <T>():Promise< Array<T> | string >  =>{ // fetc
     }
     finally {
         // if there is no exception or if there is an exception the finally block always runs
+        // typically use this to tidy up
     }
 }

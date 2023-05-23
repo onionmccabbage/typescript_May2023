@@ -15,5 +15,6 @@ export const fetchPhotos = async () => {
     }
     finally {
         // if there is no exception or if there is an exception the finally block always runs
+        // typically use this to tidy up
     }
 };
