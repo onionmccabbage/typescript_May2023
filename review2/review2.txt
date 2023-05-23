@@ -1,13 +1,12 @@
-Review Exercise 2 at least an hour (to tea break)
-================= (use breakout rooms if you like)
-(use 'liveserver' or 'npx http-server' to run the html page)
+Review Exercise 2
+=================
 
 Interpret however you like - individual or teamwork, show-and-tell after
 
 Build an app to retrieve user data from the API at
 https://jsonplaceholder.typicode.com/users
 
-You will need an interface for 'Users' but only include a few members (e.g. id, name, email, website)
+You will need an interface for 'Users' but only include a few members
 
 Optionally combine users with their todos and/or photos etc.
 The available nested routes are:
@@ -16,14 +15,12 @@ The available nested routes are:
     /users/1/albums
     /users/1/todos
     /users/1/posts
-NB the '1' here can be any parameter. Also the 'comments' 'photos' 'posts' etc can be a paramater
 
 Ideally, build the URL using back-tick interpolation
-  `https://jsonplaceholder.typicode.com/users/${id}/${category}`
 
 Show a nice collection of the ten users, and optionally their photo collections or their 'completed' todos
 - e.g. on the web page (preferred)
-- or use (browser) console.log 
+- or use console.log and string interpolation within VS Code (cannot use fetch if you do this.)
 
 Handle exceptions (catch)
 type-safe the Promise
