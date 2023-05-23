@@ -6,9 +6,15 @@ import { Post } from './util'
 import { Penguin, Dog } from './util'
 
 // we can import json
-// we get sa JS structure
+// we get a JS structure
+// e.g. for local config
 import * as posts from './data.json'
-console.log(posts)
+
+// NB for proper API data loading, use fetch
+
+// const messages:Post[] = posts
+const messages:Array<Post> = posts
+console.log(messages)
 
 // use our types
 type Animal = Penguin | Dog
