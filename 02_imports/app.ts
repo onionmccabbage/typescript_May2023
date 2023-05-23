@@ -15,6 +15,7 @@ import * as posts from './data.json'
 // const messages:Post[] = posts
 const messages:Array<Post> = posts
 console.log(messages)
+console.log(messages[0]) // at runtime there IS NO TS
 
 // use our types
 type Animal = Penguin | Dog
