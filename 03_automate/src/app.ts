@@ -12,8 +12,8 @@ interface Photo { // interface is the prefered way to declare types
     // a function to get remote data (or else an error message)
     const fetchPhotos = async ():Promise< Array<Photo> | string >  =>{ // fetch will return a promise
         // use fetch to asynchronously get the data
-        // const API = `https://jsonplaceholder.typicode.com/photos`
-        const API = `https://nonsuch.ie`
+        const API = `https://jsonplaceholder.typicode.com/photos`
+        // const API = `https://nonsuch.ie`
         try {
             // 'fetch' is part of ES6+ only works in a browser
             const response = await fetch(API) // by default this is a 'get' request
@@ -33,8 +33,19 @@ interface Photo { // interface is the prefered way to declare types
     fetchPhotos()// this method will return a Promise
         // we expect to receive an array containing Photo object
         .then( (d:Array<Photo> | string)=>{
-            console.log(d)
-        } )
+            // see if we can grab a bit of the structure
+            console.log(d[0]['title'])
+            // console.log(d)
+            // grab the 'content' DOM entity
+            const c = document.getElementById('content')
+            // populate it with some returned data
+            c.innerHTML = d[0]['title']
+            // populate hte img src with our returned thumbnail
+            const i = document.getElementById('thumbnail')
+            i.setAttribute('src', d[0]['thumbnailUrl'])
+            i.setAttribute('alt', d[0]['title'])
+            i.setAttribute('title', d[0]['title'])
+        } ) // end of 'then'
         .catch( (err)=>{ // catch any exception
             console.log(err)
         } ) 
