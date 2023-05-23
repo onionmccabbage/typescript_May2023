@@ -9,7 +9,8 @@ interface Cephalopod {
 // here is a dictionary - a mutable non-numeric-indexed collection
 interface CephalopodDict {
     // the square-brackets indicate this is a collection (not directly just a string)
-    [species:string] : Cephalopod // we use our interface
+// enforce a type for key : enforce a type for value
+         [species:string] : Cephalopod // we use our interface
 }
 
 enum oct {vulgaris='Vulgaris', loligo='Loligo'}
@@ -19,7 +20,7 @@ cephDict[oct.vulgaris] = {hasInk:true, arms:8, tentacles:0}
 cephDict[oct.loligo]   = {hasInk:true, arms:8, tentacles:2}
 
 //                                                      dot notation (case sensitive)
-console.log( cephDict[oct.vulgaris], cephDict['Loligo'], cephDict.Vulgaris )
+console.log( cephDict[oct.vulgaris], cephDict['Loligo'], cephDict.Vulgaris.arms )
 
 
 

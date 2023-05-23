@@ -44,7 +44,8 @@ q - private...
 
 Tuesday
 - brief review so far
-- install coderunner extention - lets us run ts directly
+- quick refresher on 'dictionary'
+> install coderunner extention - lets us run ts directly
 > generics Array<T>
 - importing modules
 - begin looking at data sources: JSON etc
