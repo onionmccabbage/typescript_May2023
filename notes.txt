@@ -78,9 +78,9 @@ Wednesday
   https://devtrium.com/posts/react-typescript-using-generics-in-react
 - interface, class, implements, extends....
 - more on classes
-- more on modules and import (module.exports, type='module' old-skool commonJS etc.)
+> more on modules and import (module.exports, type='module' old-skool commonJS etc.)
 			in html... <script module></script>
-- Observables and RxJS - lifecycle
+> Observables and RxJS - lifecycle
   see https://rxjs.dev/guide/overview and https://rxmarbles.com/
 - Array<T> and T[] are identical - it's a style choice
 - final lab
