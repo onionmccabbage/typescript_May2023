@@ -16,12 +16,12 @@ Monday
 > choose a folder to work in: install NodeJS/npm then install typescript globaly
  > npm install -g typescript
   > npm install -g ts-node
-  - may need to npm install types for (e.g.) @angular or @react or custom...
-- Modern ECMAScript version, support, legacy...
-   - common name JavaScript
-   - also known as ECMAScript, ES, ES3, ES5, ES6 etc
-   - sometimes referred to as ESNext, ES6+
-   - recently ES2021, ES2022... (these are all names for JavaScript)
+  > may need to npm install types for (e.g.) @angular or @react or custom...
+> Modern ECMAScript version, support, legacy...
+   > common name JavaScript
+   > also known as ECMAScript, ES, ES3, ES5, ES6 etc
+   > sometimes referred to as ESNext, ES6+
+   > recently ES2021, ES2022... (these are all names for JavaScript)
 > TS is DEVELOPMENT TIME ONLY - it NEVER makes it to the end user
 > sometimes it complains 'cannot find console...' - fix with ts-config DOM
 > Typescript why and how
@@ -34,14 +34,14 @@ Monday
 > overload...
 > JavaScript like Java?? No, but Typescript is more like Java
 > using class and interface for types
-- best pactice: declare types/interfaces in another module and import that
+> best pactice: declare types/interfaces in another module and import that
 > default ts output is ES3, we can --target es2022 (or relevant version)
 > tidy way to see html pages - liveserver (and web browser events)
-- support for older browsers etc.
+> support for older browsers etc.
 > number data type
 > functions and types
 > classes
-- ways to run and automate
+> ways to run and automate
 > try a lab exercise
 
 Tuesday
@@ -56,7 +56,7 @@ Tuesday
 > types or interface (or hybrid) - mainly aim for interface, then derive other types
 - when/why you would use an Enum, Literal, tuple, Type, Interface 
   (how to choose one over another depending on what you are doing)
-- https://webpack.js.org/guides/typescript/
+> https://webpack.js.org/guides/typescript/
 > Promises
 > fetch and async-await
 > also see https://caniuse.com
