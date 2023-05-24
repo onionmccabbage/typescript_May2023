@@ -24,17 +24,18 @@ Monday
    - recently ES2021, ES2022... (these are all names for JavaScript)
 > TS is DEVELOPMENT TIME ONLY - it NEVER makes it to the end user
 > sometimes it complains 'cannot find console...' - fix with ts-config DOM
-- Typescript why and how
-- tsconfig
-- return never
+> Typescript why and how
+> tsconfig
+> return never
 q - named tuples - schema
-- private...
-- overload...
+  see https://www.typescriptlang.org/play?ts=4.0.2#code/PTAEBUFcAcBsFMDOoCGAneq1pQT2QO4AW8GoALiaAPZoAmpoAlskwLbS3koB25F1ClXK5omRPnLw2AGgBQIULmqRQAY16gE6HqDa1MKAEYr+lac13wAHig4IAXORgJEchWACSu8KPgBlNTQmaH4AFgA6AAYZIUwRMRoAM1QIF3gAcmQAcxQmHng6ONQjJlgmEQFQbKYAN3gPVJ47eMFzUDomJKTSeD5QaHRyZGoU9vQcXAj3RQAxWlAbOzh4WOVVSERCqoJgqVSAGRR+A+oebK1qDXImM9BaphRU5xWHdwTMAHlYOlPr290AF5QABtHiQNhGUixcGQ0gAXXcajOiH4sCuxwBiAcoG+vwxNzOIPhoGBILkoEpoLCUQiAHYAIxhMKxAC0dMiUSiADZ4fIqaCAKwAZgi3LCgoAHGyGfTJYLEYjGgBpHjUAj5C7EJhqIjMZBHG7OBioHhFU7nCqQE0sVCQpjZSAqRCxXhFRCCdaNAgqH56AxaJgAa3gsFwoCIKHq6hQsAQRQqh2OFouLwQ00aAHUKnrOWsVDHdLsKvA3nIPqAAHLwAh-TF3MmwY442FQtCxdHnFsQttK5E8VGgAq1glYnHVkf-IkkskUqkgwUAJgiwrpUUXsUikoAnEu+XPKQvRcKwtvpaBWdyIovuVFhYqZmBwFRmmwkEP1aBEERPzBLMVCgqBZiD6JQCx-eo0BoSDGnaKJTSKBlUDMKg+iKUZigKaw0XyBp+0HJImDQVFDVJIcazrQkBxBKJ4RoxF8P4QjiPIFMyOHSisXokEGSVRRMyIMp4kjfg2AdIh+C2Cwnm4IpIDNUgQNgMTzlido2DyXRsmoWNQEaW1yEEPpEEgMhKGOSwkloDSqP1HgMjRahBxAotaCDTVvRzYoKwkVFpAiUB5igpZ7FWUAXMWbCcDUG5zkaQYcDfKRiNAJI0GoNhUiSeSYoBUBNk1YoAAV0BaZK9MUSAbnKSoPjLbKeFyu41D6ZKAFkUGgAAKWAuyHHtoS0Zt+rhNAAEpQAAb1AABfR9QG8UA8yEW0Q3gaBkF6i43SG8hyz8UAAGFWtIDroBKxLkGBC6ytIRAAB4Pgwlq+FOzqAD55sW0VtzUwTCF9Ip0WoINAxDfbEjxY7XrQM6brYK7QVbQbkbQPiwA69zzi-DLMAw9SA2RULrAoA6NJ4EJICbWz0UQCRGisqD2gS26oPyRmbIBCIgA
+> private...
+> overload...
 > JavaScript like Java?? No, but Typescript is more like Java
 > using class and interface for types
 - best pactice: declare types/interfaces in another module and import that
 > default ts output is ES3, we can --target es2022 (or relevant version)
-- tidy way to see html pages - liveserver (and web browser events)
+> tidy way to see html pages - liveserver (and web browser events)
 - support for older browsers etc.
 > number data type
 > functions and types
@@ -60,15 +61,15 @@ Tuesday
 > also see https://caniuse.com
 > we can specify more than one generic type as <a, b>
 - conventions, best practice, preference...
-- many ways to write functions
-- destructuring
-- generator syntax (must use 'function*')
+> many ways to write functions
+> destructuring
+> generator syntax (must use 'function*')
 > type guards - simply use logical 'if' when we need to ensure types manually
-- more on tsconfig: see the docs on tsconfig 
-- review exercise
+> more on tsconfig: see the docs on tsconfig 
+> review exercise
 
 Wednesday
-- npm init (and webpack)
+> npm init (and webpack)
 - Brief overview of ReactJS (and the ReactJS Typescript template)
   "moduleResolution": "Node",
 - React with Typescript generics
@@ -86,4 +87,4 @@ Wednesday
 - where to go next 
   https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html
 - end of course feedback
-
+    https://frameworktraining.typeform.com/to/HmIQe1tK
