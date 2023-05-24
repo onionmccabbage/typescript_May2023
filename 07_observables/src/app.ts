@@ -5,7 +5,6 @@
 // modern observables are usually implemented via RxJS (in Angular, in React ...)
 
 import { fromEvent, debounceTime, map, tap } from 'RxJS'
-import { Observable } from 'rx'
 
 // here are some potential search suggestions
 const testData: string[] = [
@@ -68,7 +67,6 @@ keyStream$.pipe(
     tap((item) => {
         // currently the entire content of the 'input' element (its value)
         console.log(`we received ${item}`)
-        return item
     }),
     map( (query)=>{
         // this will ALWAYS return an array
@@ -81,9 +79,8 @@ keyStream$.pipe(
     // inject the curent suggestion(s)
     appendResults(results, result) })
 
-
-
-// keyStream$.subscribe( (result)=>{
-//     console.log(`something happened ${result}`)
-// } )
+// here is a second subscriber
+keyStream$.subscribe( (result)=>{
+    console.log(`something happened ${result}`)
+} )
 
