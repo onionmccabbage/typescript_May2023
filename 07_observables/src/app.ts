@@ -16,6 +16,23 @@ const testData: string[] = [
     'starships'
 ]
 
+// some utility functions
+const appendResults = (container: HTMLElement, results: string[] | string) => {
+    if (typeof (results) == 'string'){
+        //
+    }
+    else {
+
+        for (const result in results) {
+            // creeate an HTML entity for each suggestion
+            const li = document.createElement("li")
+            const text = document.createTextNode(result)
+            li.appendChild(text)
+            container.appendChild(li)
+        }
+    }
+}
+
 // we need to grab bits of the DOM - cast as types so TS can hint
 const searchBox: HTMLInputElement = document.querySelector('#search') as HTMLInputElement
 // this time we allow TS to infer the type of 'results'
@@ -35,8 +52,8 @@ keyStream$.pipe(
     tap((item) => {
         console.log(`we receivd ${item}`)
     })
-    // NB nothing is instantiated until w have at least one subscriber
-).subscribe(() => { })
+    // NB nothing is instantiated until we have at least one subscriber
+).subscribe((result) => { appendResults(results, result) })
 
 
 
