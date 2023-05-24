@@ -1,5 +1,8 @@
 Review Exercise 3
 ================= 
+
+This project until 3:30
+
 Build an app where the user can access data from the Star Wars API at
     https://swapi.dev/api/
  
