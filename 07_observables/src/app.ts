@@ -18,11 +18,11 @@ const testData: string[] = [
 
 // some utility functions
 const appendResults = (container: HTMLElement, results: string[] | string) => {
+    // type guard - do we have ONE string or an array of strings?
     if (typeof (results) == 'string'){
         //
     }
     else {
-
         for (const result in results) {
             // creeate an HTML entity for each suggestion
             const li = document.createElement("li")
@@ -44,7 +44,7 @@ const keyStream$ = fromEvent(searchBox, 'keyup') // :Observable<T>
 // ...and here we make a subscriber to our observable
 keyStream$.pipe(
     // sequential pipe
-    debounceTime(500), // don't bother responding if events occurr less than 0.5 sec
+    debounceTime(500), // don't bother responding if events occur less than 0.5 sec
     map((event) => {
         const input = event.target as HTMLInputElement;
         return input.value
